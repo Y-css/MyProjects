@@ -1,0 +1,26 @@
+html {
+    background: rgb(63, 209, 251);
+    background: radial-gradient(circle, rgba(63, 209, 251, 1) 0%, rgba(192, 70, 252, 1) 100%);
+
+    body {
+        text-align: center;
+
+    }
+
+    img {
+        border-radius: 50%;
+        width: 100px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    img {
+        transition: transform .2s;
+        border: 10px solid #AAAAAA;
+    }
+
+    img:hover {
+        transform: scale(0.9);
+    }
